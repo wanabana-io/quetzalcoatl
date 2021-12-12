@@ -1,0 +1,28 @@
+.home-test {
+  align-items: center;
+  background-color: $green-medium;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+
+  &__title {
+    font-size: 10rem;
+    font-family: 'cocogoose';
+  }
+
+  &__cocogoose {
+    color: $white-elementary;
+    font-family: 'cocogoose';
+    font-size: 5rem;
+    margin: 0;
+  }
+
+  &__roboto {
+    color: $white-elementary;
+    font-family: 'roboto';
+    font-size: 5rem;
+    margin: 0;
+  }
+}

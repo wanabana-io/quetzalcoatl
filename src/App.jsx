@@ -1,24 +1,14 @@
-import logo from './logo.svg';
-import './sass/layout/App.scss';
+import './sass/main.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='home-test'>
+        <h1 className='home-test__title'>Prueba de fuentes</h1>
+        <h2 className='home-test__cocogoose'>Esta es la fuente cocogoose</h2>
+        <h2 className="home-test__roboto">Esta es la fuente de roboto</h2>
+      </div>
+    </>
   );
 }
 
