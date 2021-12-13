@@ -1,0 +1,65 @@
+.header-container {
+  align-items: center;
+  background-color: $white-elementary;
+  display: flex;
+  flex-direction: row;
+  height: 4rem;
+  justify-content: space-between;
+  width: 100%;
+
+  @media only screen and (min-width: $breakpoint-tablet) {
+    height: 5rem;
+  }
+}
+
+.logos-container {
+
+  &__desktop {
+    display: none;
+
+    @media only screen and (min-width: $breakpoint-tablet) {
+      display: block;
+      margin-left: 5rem;
+    }
+  }
+
+  &__mobile {
+    margin: 0 1rem;
+    width: 2.5rem;
+
+    @media only screen and (min-width: $breakpoint-tablet) {
+      display: none;
+    }
+  }
+}
+
+.menu-container {
+
+  @media only screen and (min-width:$breakpoint-tablet) {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5rem;
+  }
+
+  &__hamburguer-icon {
+    margin: 0 1rem;
+    width: 2rem;
+
+    @media only screen and (min-width: $breakpoint-tablet) {
+      display: none;
+    }
+  }
+
+  &__link {
+    display: none;
+
+    @media only screen and (min-width: $breakpoint-tablet) {
+      color: $gray-darker;
+      display: block;
+      font-family: $roboto;
+      font-style: normal;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+  }
+}
