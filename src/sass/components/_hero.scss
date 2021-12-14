@@ -1,0 +1,67 @@
+.container-information {
+  background-color: $white-elementary;
+  background-image: url('../../assets/hero/girl-mobile.svg'),
+                    url('../../assets/hero/left-mobile-flower.svg'),
+                    url('../../assets/hero/right-mobile-flower.svg');
+  background-repeat: no-repeat;
+  background-position: right 100%, 0% 50%, 100% 44%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  text-align: center;
+  width: 100%;
+
+  @media only screen and (min-width: $breakpoint-tablet) {
+    background-image: none;
+    background-image: url('../../assets/hero/girl-desktop.svg'),
+      url('../../assets/hero/guy-dekstop.svg'),
+      url('../../assets/hero/right-desktop-flowers.svg'),
+      url('../../assets/hero/left-desktop-flowers.svg');
+    background-position: right 100%, 0% 125%, 100% 18%, 0% 15%;
+  }
+
+  &__title {
+    color: $black;
+    font-family: $cocogoose;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7rem;
+    margin: 5rem 1rem 0 1rem;
+
+    @media only screen and (min-width: $breakpoint-tablet) {
+      font-size: 3.75rem;
+      line-height: 4.3rem;
+      margin: 0 auto;
+      margin-top: 8rem;
+      width: 50rem;
+    }
+  }
+
+  &__subtitle {
+    color: $gray-darker;
+    font-family: $roboto;
+    font-size: .80rem;
+    font-weight: 400;
+    margin: 1rem 1rem 3rem;
+
+    @media only screen and (min-width: $breakpoint-tablet) {
+      font-size: 1.1rem;
+    }
+  }
+
+  &__button {
+    background-color: $gree-button;
+    border-radius: 3.75rem;
+    border: none;
+    box-shadow: 0 0.5rem 2rem $green-shadow;
+    color: $white;
+    font-family: $roboto;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 auto;
+    max-width: 12rem;
+    padding: 0.7rem 2.75rem;
+  }
+}
