@@ -1,0 +1,62 @@
+.sidebar {
+  .sidebar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3.5rem;
+
+    &__link {
+      cursor: pointer;
+    }
+
+    & ul {
+      padding: 0;
+    }
+
+    & li {
+      margin-top: 2.2rem;
+      list-style: none;
+    }
+  }
+
+  &__format {
+    background: $gray-darker;
+    border-radius: 1.2rem 0 0 1.2rem;
+    color: $white-elementary;
+    font-family: $roboto;
+    margin-right: -150%;
+    min-height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: all 0.5s;
+    width: 50%;
+    z-index: 1000;
+  }
+
+  &__is-open {
+    margin-right: 0;
+
+    @media only screen and (min-width: $breakpoint-tablet) {
+      margin-right: -150%;
+    }
+  }
+
+  &__overlay {
+    background-color: $overlay;
+    height: 120%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &__is-open-overlay {
+    opacity: 3;
+
+    @media only screen and (min-width: $breakpoint-tablet) {
+      display: none;
+    }
+  }
+}

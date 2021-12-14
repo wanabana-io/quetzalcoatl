@@ -1,7 +1,9 @@
-@import 'abstracts/mixins';
-@import 'utils/colors';
-@import 'utils/fonts';
-@import 'components/fonts-test';
-@import 'components/header';
-@import 'layout/App.scss';
-@import 'components/hero';
+@import "abstracts/mixins";
+@import "utils/colors";
+@import "utils/fonts";
+@import "components/fonts-test";
+
+@import "components/sidebar";
+@import "components/header";
+@import "layout/App.scss";
+@import "components/hero";

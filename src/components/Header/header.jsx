@@ -2,9 +2,9 @@ import React from "react";
 import LogoHeaderDesktop from "../../assets/header/logo-desktop-header.svg";
 import LogoHeaderMobile from "../../assets/header/logo-mobile-header.svg";
 import MenuIcon from "../../assets/header/hamburguer-menu.svg";
-import HeaderItem from "./components/HeaderItem/HeaderItem";
+import HeaderItem from "../../shared/HeaderItem/headerItem";
 
-const Header = () => {
+const Header = ({ isOpen }) => {
   return (
     <div className="header">
       <div className="header-container">
@@ -26,13 +26,26 @@ const Header = () => {
             alt="Hamburguer icon"
             className="menu-container__hamburguer-icon"
             src={MenuIcon}
+            onClick={() => isOpen()}
           />
 
-          <HeaderItem goTo="services" text="Services" />
+          <HeaderItem
+            goTo="services"
+            text="Services"
+            itemClass="menu-container__link"
+          />
 
-          <HeaderItem goTo="about" text="About" />
+          <HeaderItem
+            goTo="about"
+            text="About"
+            itemClass="menu-container__link"
+          />
 
-          <HeaderItem goTo="contact" text="Contact" />
+          <HeaderItem
+            goTo="contact"
+            text="Contact"
+            itemClass="menu-container__link"
+          />
         </div>
       </div>
     </div>
