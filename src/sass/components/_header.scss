@@ -1,65 +1,66 @@
-.header-container {
-  align-items: center;
+.header {
   background-color: $white-elementary;
-  display: flex;
-  flex-direction: row;
-  height: 4rem;
-  justify-content: space-between;
   width: 100%;
 
-  @media only screen and (min-width: $breakpoint-tablet) {
-    height: 5rem;
-  }
-}
-
-.logos-container {
-
-  &__desktop {
-    display: none;
-
-    @media only screen and (min-width: $breakpoint-tablet) {
-      display: block;
-      margin-left: 5rem;
-    }
-  }
-
-  &__mobile {
-    margin: 0 1rem;
-    width: 2.5rem;
-
-    @media only screen and (min-width: $breakpoint-tablet) {
-      display: none;
-    }
-  }
-}
-
-.menu-container {
-
-  @media only screen and (min-width:$breakpoint-tablet) {
+  .header-container {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    margin-right: 5rem;
-  }
-
-  &__hamburguer-icon {
+    height: 4rem;
+    justify-content: space-between;
     margin: 0 1rem;
-    width: 2rem;
 
     @media only screen and (min-width: $breakpoint-tablet) {
-      display: none;
+      height: 5rem;
+      margin: 0 5rem;
     }
   }
 
-  &__link {
-    display: none;
+  .logos-container {
+    &__desktop {
+      display: none;
 
+      @media only screen and (min-width: $breakpoint-tablet) {
+        display: block;
+      }
+    }
+
+    &__mobile {
+      width: 2.5rem;
+
+      @media only screen and (min-width: $breakpoint-tablet) {
+        display: none;
+      }
+    }
+  }
+
+  .menu-container {
     @media only screen and (min-width: $breakpoint-tablet) {
-      color: $gray-darker;
-      display: block;
-      font-family: $roboto;
-      font-style: normal;
-      margin: 0 1rem;
-      text-decoration: none;
+      display: flex;
+      flex-direction: row;
+    }
+
+    &__hamburguer-icon {
+      width: 2rem;
+      cursor: pointer;
+
+      @media only screen and (min-width: $breakpoint-tablet) {
+        display: none;
+      }
+    }
+
+    &__link {
+      display: none;
+      cursor: pointer;
+
+      @media only screen and (min-width: $breakpoint-tablet) {
+        color: $gray-darker;
+        display: block;
+        font-family: $roboto;
+        font-style: normal;
+        margin: 0 1rem;
+        text-decoration: none;
+      }
     }
   }
 }
