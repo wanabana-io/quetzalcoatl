@@ -1,7 +1,7 @@
 import React from 'react';
-import LogoHeaderDesktop from '../assets/logo-desktop-header.svg';
-import LogoHeaderMobile from '../assets/logo-mobile-header.svg';
-import MenuIcon from '../assets/hamburguer-menu.svg';
+import LogoHeaderDesktop from '../../assets/header/logo-desktop-header.svg';
+import LogoHeaderMobile from '../../assets/header/logo-mobile-header.svg';
+import MenuIcon from '../../assets/header/hamburguer-menu.svg';
 
 const Header = () => {
   return (
