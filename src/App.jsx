@@ -4,6 +4,8 @@ import Header from "./components/Header/header";
 import Hero from "./components/Hero/hero";
 import Sidebar from "./components/Sidebar/sidebar";
 import Contact from "./components/Contact/contact";
+import Services from "./components/Services/Services";
+
 
 function App() {
   const [sidebarIsOpen, setSidebarOpen] = useState(false);
@@ -18,6 +20,7 @@ function App() {
       <Sidebar toggle={sidebarIsOpen} isOpen={show} />
       <Hero />
       <Contact />
+      <Services />
     </>
   );
 }
