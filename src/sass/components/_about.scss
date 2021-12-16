@@ -1,0 +1,63 @@
+.about {
+  background-color: $black;
+  display: flex;
+  flex-direction: column;
+  height: 34rem;
+  justify-content: space-around;
+  padding: 1.5rem 1rem;
+
+  @media only screen and (min-width: $breakpoint-tablet) {
+    align-items: center;
+    flex-direction: row;
+    height: 44rem;
+    justify-content: space-around;
+    padding: 1.5rem 6rem;
+  }
+
+  &__description {
+    color: $white-elementary;
+    font-family: $cocogoose;
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin: 0;
+    width: 85%;
+
+    @media only screen and (min-width: $breakpoint-tablet) {
+      font-size: 3.75rem;
+      line-height: 4rem;
+      width: 75%;
+    }
+  }
+
+  &__origin {
+    color: $green-medium;
+    font-family: $cocogoose;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+
+    @media only screen and (min-width: $breakpoint-tablet) {
+      font-size: 2rem;
+    }
+  }
+
+  &__image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__image-about {
+    @media only screen and (min-width: $breakpoint-tablet) {
+     display: none;
+    }
+  }
+
+  &__image-about-desktop {
+    display: none;
+
+    @media only screen and (min-width: $breakpoint-tablet) {
+      display: block;
+      margin-left: 5rem;
+    }
+  }
+}

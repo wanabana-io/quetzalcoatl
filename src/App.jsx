@@ -5,6 +5,7 @@ import Hero from "./components/Hero/hero";
 import Sidebar from "./components/Sidebar/sidebar";
 import Contact from "./components/Contact/contact";
 import Services from "./components/Services/Services";
+import About from "./components/About/aboutUs";
 
 
 function App() {
@@ -19,8 +20,9 @@ function App() {
       <Header isOpen={show} />
       <Sidebar toggle={sidebarIsOpen} isOpen={show} />
       <Hero />
-      <Contact />
       <Services />
+      <About />
+      <Contact />
     </>
   );
 }
