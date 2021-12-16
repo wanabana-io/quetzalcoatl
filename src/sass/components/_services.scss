@@ -1,0 +1,139 @@
+.services-container {
+  background-color: $white-elementary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+
+  @media only screen and (min-width: $breakpoint-tablet) {
+    background-image: url('../../assets/services/background-desktop-services.svg');
+    background-repeat: no-repeat;
+    background-position: 100% 88%;
+  }
+}
+
+.services-title h1 {
+  color: $black;
+  font-family: $cocogoose;
+  font-weight: 400;
+  margin: 0 auto;
+  text-align: center;
+
+  @media only screen and (min-width: $breakpoint-tablet) {
+    font-size: 3.75rem;
+  }
+}
+
+.card-container {
+  margin: 0 auto;
+  width: 18.75rem;
+}
+
+.card-image {
+  margin-bottom: -0.35rem;
+  width: 100%;
+}
+
+.information-container {
+  background-color: $green-lighter;
+  border-radius: 0 0 1.875rem 1.875rem;
+  padding: 1rem;
+}
+
+.title-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+
+  &__icon {
+    width: 1.600rem;
+  }
+
+  &__title {
+    color: $white-elementary;
+    font-family: $cocogoose;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: .1rem 0 0 .8rem;
+  }
+}
+
+.subtitle {
+  font-family: $roboto;
+  font-size: .8rem;
+  font-weight: 400;
+  margin: .5rem 0;
+}
+
+.description {
+  font-family: $cocogoose;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2rem;
+  margin: 0;
+  text-align: justify;
+}
+
+.services-data {
+  display: none;
+
+  @media only screen and (min-width: $breakpoint-tablet) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+  }
+}
+
+.services {
+  display: none;
+  margin: 2rem 3rem;
+
+  @media only screen and (min-width: $breakpoint-tablet) {
+    display: flex;
+  }
+
+  &__image {
+    border-radius: 8px;
+  }
+
+  &__information-container {
+    margin-left: 4rem;
+  }
+
+  &__information-container-separation {
+    margin-left: 0;
+  }
+
+  &__title-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__title {
+    color: $green-lighter;
+    font-family: $cocogoose;
+    font-weight: 400;
+    margin-left: 1rem;
+  }
+
+  &__subtitle {
+    color: $black;
+    font-family: $roboto;
+    font-weight: 400;
+  }
+
+  &__description {
+    color: $black;
+    font-family: $cocogoose;
+    font-size: 2rem;
+    font-weight: 400;
+    width: 75%;
+  }
+}
+
+.services-direction {
+  display: flex;
+  flex-direction: row-reverse;
+}
