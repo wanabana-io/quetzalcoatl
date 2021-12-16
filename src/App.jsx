@@ -3,6 +3,7 @@ import "./sass/main.scss";
 import Header from "./components/Header/header";
 import Hero from "./components/Hero/hero";
 import Sidebar from "./components/Sidebar/sidebar";
+import Contact from "./components/Contact/contact";
 
 function App() {
   const [sidebarIsOpen, setSidebarOpen] = useState(false);
@@ -16,6 +17,7 @@ function App() {
       <Header isOpen={show} />
       <Sidebar toggle={sidebarIsOpen} isOpen={show} />
       <Hero />
+      <Contact />
     </>
   );
 }
