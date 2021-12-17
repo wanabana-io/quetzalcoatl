@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-position: 0% 100%, 100% 10%;
 
-  @media only screen and (min-width: $breakpoint-tablet) {
+  @include desktop {
     background-image: none;
     background-image: url('../../assets/contact/flower-down-desktop.svg'),
     url("../../assets/contact/flower-up-desktop.svg");
@@ -27,7 +27,7 @@
     font-size: 1.375rem;
     margin: 0;
 
-    @media only screen and (min-width: $breakpoint-tablet) {
+    @include desktop {
       font-size: 3.75rem;
     }
   }
@@ -38,7 +38,7 @@
     font-size: 2.5rem;
     margin: 1rem 0;
 
-    @media only screen and (min-width: $breakpoint-tablet) {
+    @include desktop {
       font-size: 5rem;
     }
   }

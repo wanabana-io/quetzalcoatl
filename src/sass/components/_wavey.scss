@@ -1,15 +1,31 @@
 .wavey {
+  position: absolute;
+  width: 100%;
+
+  &__relative {
+    position:relative;
+    bottom: 30px;
+
+    @include desktop {
+      top: -120px;
+		}
+  }
+
   .wavey-container {
-		height: 150px; 
+		height: 70px; 
 		overflow: hidden;
+
+		@include desktop {
+			height: 150px;
+		}
 	}
 
 	.wavey-container-right{
-		background-color: $black;	
+		background-color: transparent;	
 	}
 
 	.wavey-container-left{
-		background-color: $white-elementary;
+		background-color: transparent;
 	}
     
 	.wavey-sizes{
@@ -19,11 +35,11 @@
 	
 	.wavey-right{
 		stroke: none;
-		fill: $white-elementary;
+		fill: $black;
 	}
 
 	.wavey-left{
 		stroke: none;
-		fill: $white;
+		fill: $white-elementary;
 	}
 }

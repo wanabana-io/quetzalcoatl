@@ -11,7 +11,7 @@
     justify-content: space-between;
     margin: 0 1rem;
 
-    @media only screen and (min-width: $breakpoint-tablet) {
+    @include desktop {
       height: 5rem;
       margin: 0 5rem;
     }
@@ -21,7 +21,7 @@
     &__desktop {
       display: none;
 
-      @media only screen and (min-width: $breakpoint-tablet) {
+      @include desktop {
         display: block;
       }
     }
@@ -29,14 +29,14 @@
     &__mobile {
       width: 2.5rem;
 
-      @media only screen and (min-width: $breakpoint-tablet) {
+      @include desktop {
         display: none;
       }
     }
   }
 
   .menu-container {
-    @media only screen and (min-width: $breakpoint-tablet) {
+    @include desktop {
       display: flex;
       flex-direction: row;
     }
@@ -45,7 +45,7 @@
       width: 2rem;
       cursor: pointer;
 
-      @media only screen and (min-width: $breakpoint-tablet) {
+      @include desktop {
         display: none;
       }
     }
@@ -54,7 +54,7 @@
       display: none;
       cursor: pointer;
 
-      @media only screen and (min-width: $breakpoint-tablet) {
+      @include desktop {
         color: $gray-darker;
         display: block;
         font-family: $roboto;
