@@ -29,10 +29,11 @@ const Wavey = ({ reverseWavey }) => {
 
 	const { path, classContainer, classWavey } = data
 
-	const viewSize = width < 1000 ? "0 0 500 500" : "0 0 500 200"
+	const viewSize = width < 1000 ? "0 0 500 250" : "0 0 500 150"
 	
 	return(
 		<div className="wavey">
+			<div className="wavey__relative">
 			<div className={`wavey-container ${ classContainer }`}>
 				<svg viewBox={ viewSize } preserveAspectRatio="none" className="wavey-sizes">
 					<path d={ path }
@@ -40,6 +41,7 @@ const Wavey = ({ reverseWavey }) => {
 					>
 					</path>
 				</svg>
+			</div>
 			</div>
 		</div>
 	)
