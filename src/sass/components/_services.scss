@@ -5,7 +5,7 @@
   justify-content: center;
   padding: 2rem;
 
-  @media only screen and (min-width: $breakpoint-tablet) {
+  @include desktop {
     background-image: url('../../assets/services/background-desktop-services.svg');
     background-repeat: no-repeat;
     background-position: 100% 88%;
@@ -19,7 +19,7 @@
   margin: 0 auto;
   text-align: center;
 
-  @media only screen and (min-width: $breakpoint-tablet) {
+  @include desktop {
     font-size: 3.75rem;
   }
 }
@@ -77,7 +77,7 @@
 .services-data {
   display: none;
 
-  @media only screen and (min-width: $breakpoint-tablet) {
+  @include desktop {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -89,7 +89,7 @@
   display: none;
   margin: 2rem 3rem;
 
-  @media only screen and (min-width: $breakpoint-tablet) {
+  @include desktop {
     display: flex;
   }
 

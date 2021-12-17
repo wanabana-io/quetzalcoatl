@@ -6,7 +6,7 @@
   justify-content: space-around;
   padding: 1.5rem 1rem;
 
-  @media only screen and (min-width: $breakpoint-tablet) {
+  @include desktop {
     align-items: center;
     flex-direction: row;
     height: 44rem;
@@ -22,7 +22,7 @@
     margin: 0;
     width: 85%;
 
-    @media only screen and (min-width: $breakpoint-tablet) {
+    @include desktop {
       font-size: 3.75rem;
       line-height: 4rem;
       width: 75%;
@@ -36,7 +36,7 @@
     font-weight: 400;
     margin: 0;
 
-    @media only screen and (min-width: $breakpoint-tablet) {
+    @include desktop {
       font-size: 2rem;
     }
   }
@@ -47,7 +47,7 @@
   }
 
   &__image-about {
-    @media only screen and (min-width: $breakpoint-tablet) {
+    @include desktop {
      display: none;
     }
   }
@@ -55,7 +55,7 @@
   &__image-about-desktop {
     display: none;
 
-    @media only screen and (min-width: $breakpoint-tablet) {
+    @include desktop {
       display: block;
       margin-left: 5rem;
     }

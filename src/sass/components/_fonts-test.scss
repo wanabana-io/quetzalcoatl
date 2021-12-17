@@ -1,4 +1,4 @@
-@media only screen and (min-width: $breakpoint-tablet) {
+@include desktop {
   .home-test {
     align-items: center;
     background-color: $green-medium;

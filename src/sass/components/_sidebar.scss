@@ -37,7 +37,7 @@
   &__is-open {
     margin-right: 0;
 
-    @media only screen and (min-width: $breakpoint-tablet) {
+    @include desktop {
       margin-right: -150%;
     }
   }
@@ -55,7 +55,7 @@
   &__is-open-overlay {
     opacity: 3;
 
-    @media only screen and (min-width: $breakpoint-tablet) {
+    @include desktop {
       display: none;
     }
   }
