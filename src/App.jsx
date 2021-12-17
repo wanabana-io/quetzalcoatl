@@ -6,6 +6,7 @@ import Sidebar from "./components/Sidebar/sidebar";
 import Contact from "./components/Contact/contact";
 import Services from "./components/Services/Services";
 import About from "./components/About/aboutUs";
+import Wavey from "./shared/Wavey/wavey";
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
       <Header isOpen={show} />
       <Sidebar toggle={sidebarIsOpen} isOpen={show} />
       <Hero />
+      <Wavey />
       <Services />
+      <Wavey reverseWavey={true} />
       <About />
       <Contact />
     </>
