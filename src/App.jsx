@@ -7,6 +7,8 @@ import Contact from "./components/Contact/contact";
 import Services from "./components/Services/Services";
 import About from "./components/About/aboutUs";
 import Wavey from "./shared/Wavey/wavey";
+import Footer from "./components/Footer/footer";
+
 
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
       <Wavey reverseWavey={true} />
       <About />
       <Contact />
+      <Footer/>
     </>
   );
 }
