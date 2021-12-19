@@ -5,13 +5,12 @@ const HeaderItem = ({ goTo, text, itemClass, isOpen }) => {
   return (
     <>
       <Link
-        activeClass={goTo}
         className={itemClass}
         duration={500}
-        offset={-50}
+        offset={20}
         smooth={true}
         spy={true}
-        to="about"
+        to={goTo}
         onClick={() => {
           isOpen();
         }}
