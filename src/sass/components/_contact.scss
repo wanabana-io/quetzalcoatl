@@ -43,3 +43,16 @@
     }
   }
 }
+
+.arrow-scroll {
+  bottom: -35%;
+  cursor: pointer;
+  display: inline;
+  position: relative;
+  width: 2.8rem;
+
+  @include desktop {
+    bottom: -30%;
+    width: 3.8rem;
+  }
+}
