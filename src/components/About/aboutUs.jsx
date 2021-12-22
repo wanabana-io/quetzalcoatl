@@ -16,7 +16,6 @@ const About = () => {
         <ReactSVG src={AboutUsImage} className="about__image-about" />
         <ReactSVG src={AboutUSImageDesktop} className="about__image-about-desktop" />
       </div>
-
     </div>
   );
 }
