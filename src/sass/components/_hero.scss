@@ -1,8 +1,8 @@
 .container-information {
   background-color: $white;
-  background-image: url('../../assets/hero/girl-mobile.svg'),
-                    url('../../assets/hero/left-mobile-flower.svg'),
-                    url('../../assets/hero/right-mobile-flower.svg');
+  background-image: url("../../assets/hero/girl-mobile.svg"),
+    url("../../assets/hero/left-mobile-flower.svg"),
+    url("../../assets/hero/right-mobile-flower.svg");
   background-repeat: no-repeat;
   background-position: right 100%, 0% 50%, 100% 44%;
   display: flex;
@@ -14,10 +14,10 @@
 
   @include desktop {
     background-image: none;
-    background-image: url('../../assets/hero/girl-desktop.svg'),
-      url('../../assets/hero/guy-dekstop.svg'),
-      url('../../assets/hero/right-desktop-flowers.svg'),
-      url('../../assets/hero/left-desktop-flowers.svg');
+    background-image: url("../../assets/hero/girl-desktop.svg"),
+      url("../../assets/hero/guy-dekstop.svg"),
+      url("../../assets/hero/right-desktop-flowers.svg"),
+      url("../../assets/hero/left-desktop-flowers.svg");
     background-position: right 100%, 0% 125%, 100% 18%, 0% 15%;
   }
 
@@ -42,7 +42,7 @@
   &__subtitle {
     color: $gray-darker;
     font-family: $roboto;
-    font-size: .80rem;
+    font-size: 0.8rem;
     font-weight: 400;
     margin: 1rem 1rem 3rem;
 
@@ -63,5 +63,11 @@
     margin: 0 auto;
     max-width: 12rem;
     padding: 0.7rem 2.75rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in;
+  }
+
+  &__button:hover {
+    background-color: $green-lighter;
   }
 }
