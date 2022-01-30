@@ -1,8 +1,11 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg'
 import classNames from "classnames";
+import useFirabeImage from '../../hooks/useFirebaseImage';
 
-const CardDesktop = ({direction, imgDesktop, iconDesktop, title, subtitle, description, separation}) => {
+const CardDesktop = ({direction, img, iconDesktop, title, subtitle, description, separation}) => {
+
+  const {url} = useFirabeImage(img);
 
   const directionclass = classNames("services", {
     "services-direction": direction
@@ -14,7 +17,7 @@ const CardDesktop = ({direction, imgDesktop, iconDesktop, title, subtitle, descr
   return (
     <>
       <div className={directionclass}>
-        <ReactSVG src={imgDesktop} className="services__image" />
+        { url && <img src={url} alt={img} className="services__image" /> }
         <div className={textSeparation}>
           <div className="services__title-container">
             <ReactSVG src={iconDesktop} className="services__icon" />

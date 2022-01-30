@@ -1,21 +1,22 @@
-import PlanningImage from '../../assets/services/planning-image.svg';
-import PlanningImageDesktop from '../../assets/services/planning-image-desktop.svg';
+//Planning
 import PlanningIcon from '../../assets/services/planning-icon.svg';
 import PlanningIconDesktop from '../../assets/services/planning-icon-desktop.svg';
-import DesignImage from '../../assets/services/design-image.svg';
+
+//Design
 import DesignIcon from '../../assets/services/design-icon.svg';
 import DesignIconDesktop from '../../assets/services/design-icon-desktop.svg';
-import DevelopingImage from '../../assets/services/developing-image.svg';
+
+//Developing
 import DevelopingIcon from '../../assets/services/developing-icon.svg';
 import DevelopingIconDesktop from '../../assets/services/developing-icon-desktop.svg';
-import ConsultingImage from '../../assets/services/consulting-image.svg';
+
+//Consulting
 import ConsultingIcon from '../../assets/services/consulting-icon.svg';
 import ConsultingIconDesktop from '../../assets/services/consulting-icon-desktop.svg';
 
 export const ServiceData = {
   Planning: {
-    img:PlanningImage,
-    imgDesktop: PlanningImageDesktop,
+    img: "planning-image.png",
     icon:PlanningIcon,
     iconDesktop: PlanningIconDesktop,
     title:"Planning",
@@ -26,8 +27,7 @@ export const ServiceData = {
   },
 
   Design: {
-    img:DesignImage,
-    imgDesktop: PlanningImageDesktop,
+    img: "design-image.png",
     icon:DesignIcon,
     iconDesktop: DesignIconDesktop,
     title:"Design",
@@ -38,8 +38,7 @@ export const ServiceData = {
   },
 
   Developing: {
-    img:DevelopingImage,
-    imgDesktop: PlanningImageDesktop,
+    img: "developing-image.png",
     icon:DevelopingIcon,
     iconDesktop: DevelopingIconDesktop,
     title:"Developing",
@@ -50,8 +49,7 @@ export const ServiceData = {
   },
 
   Consulting: {
-    img:ConsultingImage,
-    imgDesktop: PlanningImageDesktop,
+    img:"consulting-images.png",
     icon:ConsultingIcon,
     iconDesktop: ConsultingIconDesktop,
     title:"Consulting",
