@@ -1,9 +1,9 @@
 import React from 'react';
-import { ReactSVG } from 'react-svg'
+import { ReactSVG as Icon } from 'react-svg';
 import classNames from "classnames";
 import useFirabeImage from '../../hooks/useFirebaseImage';
 
-const CardDesktop = ({direction, img, iconDesktop, title, subtitle, description, separation}) => {
+const CardDesktop = ({direction, img, icon, title, subtitle, description, separation}) => {
 
   const {url} = useFirabeImage(img);
 
@@ -20,7 +20,10 @@ const CardDesktop = ({direction, img, iconDesktop, title, subtitle, description,
         { url && <img src={url} alt={img} className="services__image" /> }
         <div className={textSeparation}>
           <div className="services__title-container">
-            <ReactSVG src={iconDesktop} className="services__icon" />
+            <Icon src={icon} beforeInjection={(svg) => {
+              svg.setAttribute('height', 48)
+              svg.setAttribute('width', 48)
+            }} className="services__icon" />
             <h1 className="services__title">{title}</h1>
           </div>
           <h3 className="services__subtitle">{subtitle}</h3>
