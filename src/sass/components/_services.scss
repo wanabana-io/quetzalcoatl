@@ -44,6 +44,7 @@
 
 .title-container {
   align-items: center;
+  color: $white-elementary;
   display: flex;
   flex-direction: row;
 
@@ -109,6 +110,7 @@
 
   &__title-container {
     align-items: center;
+    color: $icon-color-dekstop;
     display: flex;
     flex-direction: row;
   }
