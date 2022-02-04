@@ -9,8 +9,6 @@ import About from "./components/About/aboutUs";
 import Wavey from "./shared/Wavey/wavey";
 import Footer from "./components/Footer/footer";
 
-
-
 function App() {
   const [sidebarIsOpen, setSidebarOpen] = useState(false);
 
@@ -23,7 +21,6 @@ function App() {
       <Header isOpen={show} />
       <Sidebar toggle={sidebarIsOpen} isOpen={show} />
       <Hero />
-      <Wavey />
       <Services />
       <Wavey reverseWavey={true} />
       <About />

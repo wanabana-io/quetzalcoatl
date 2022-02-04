@@ -55,7 +55,7 @@ const Footer = () => (
         <a href="https://www.facebook.com/wanabana.io">
           <ReactSVG src={IconFacebook} className="footer__icons-separation" />
         </a>
-        <a>
+        <a href='https://www.facebook.com/wanabana.io'>
           <ReactSVG src={IconLinkedin} className="footer__icons-separation" />
         </a>
       </div>

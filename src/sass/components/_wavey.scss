@@ -1,22 +1,13 @@
 .wavey {
-  position: absolute;
-  width: 100%;
-
-  &__relative {
-    position:relative;
-    bottom: 30px;
-
-    @include desktop {
-      top: -120px;
-		}
-  }
+	position: relative;
+	z-index: 100;
+	margin-top:  auto;
 
   .wavey-container {
-		height: 70px; 
-		overflow: hidden;
+		height: 80px; 
 
 		@include desktop {
-			height: 150px;
+			height: 200px;
 		}
 	}
 

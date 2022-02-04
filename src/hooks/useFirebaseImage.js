@@ -11,6 +11,7 @@ const useFirabeImage = (url) => {
 
   useEffect(() => {
     getImage();
+    // eslint-disable-next-line
   },[])
 
   return{...state}
