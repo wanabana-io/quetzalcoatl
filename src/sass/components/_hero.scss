@@ -1,6 +1,6 @@
 .container-information {
   background-color: $white;
-  background-image: url("../../assets/hero/girl-mobile.svg"),
+  background-image: url("../../assets/hero/girl-desktop.svg"),
     url("../../assets/hero/left-mobile-flower.svg"),
     url("../../assets/hero/right-mobile-flower.svg");
   background-repeat: no-repeat;
@@ -18,7 +18,8 @@
       url("../../assets/hero/guy-dekstop.svg"),
       url("../../assets/hero/right-desktop-flowers.svg"),
       url("../../assets/hero/left-desktop-flowers.svg");
-    background-position: right 100%, 0% 125%, 100% 18%, 0% 15%;
+      background-size: 30%, 32%, 6%, 6%;
+      background-position: right 80%, 0% 100%, 100% 18%, 0% 15%;
   }
 
   &__title {

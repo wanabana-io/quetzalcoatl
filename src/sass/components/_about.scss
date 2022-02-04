@@ -48,16 +48,7 @@
 
   &__image-about {
     @include desktop {
-     display: none;
-    }
-  }
-
-  &__image-about-desktop {
-    display: none;
-
-    @include desktop {
-      display: block;
-      margin-left: 5rem;
+      width: 30rem;
     }
   }
 }
