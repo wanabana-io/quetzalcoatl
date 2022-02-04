@@ -1,8 +1,6 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg'
 import AboutUsImage from '../../assets/about/about-us.svg';
-import AboutUSImageDesktop from '../../assets/about/about-us-desktop.svg'
-
 
 const About = () => {
   return (
@@ -14,7 +12,6 @@ const About = () => {
 
       <div className="about__image-container">
         <ReactSVG src={AboutUsImage} className="about__image-about" />
-        <ReactSVG src={AboutUSImageDesktop} className="about__image-about-desktop" />
       </div>
     </div>
   );
