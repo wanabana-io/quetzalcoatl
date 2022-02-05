@@ -1,25 +1,25 @@
 .container-information {
-  position: relative;
   background-color: $white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   height: calc(100vh - 64px);
-  text-align: center;
+  justify-content: flex-start;
   overflow-x: hidden;
+  position: relative;
+  text-align: center;
 
   &__girl {
-    overflow: hidden;
-    width: 500px;
-    position: absolute;
     bottom: 0;
     left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 500px;
 
     @include desktop {
-      width: initial;
-      left: initial;
       bottom: 10px !important;
+      left: initial;
       right: -30px !important;
+      width: initial;
     }
   }
 
@@ -27,10 +27,65 @@
     display: none;
 
     @include desktop {
-      display: block;
-      position: absolute;
-      left: -30px;
       bottom: 0;
+      display: block;
+      left: -30px;
+      position: absolute;
+    }
+  }
+
+  &__left-top-flower {
+    display: none;
+
+    @include desktop {
+      bottom: 610px !important;
+      display: block;
+      overflow: hidden;
+      position: absolute;
+      width: 90px;
+    }
+  }
+
+  &__left-down-flower {
+    bottom: 450px !important;
+    overflow: hidden;
+    position: absolute;
+    width: 70px;
+
+    @include desktop {
+      bottom: 460px !important;
+      overflow: hidden;
+      position: absolute;
+      width: 75px;
+    }
+  }
+
+  &__right-top-flower {
+   display: none;
+
+    @include desktop {
+      bottom: 610px !important;
+      display: block;
+      overflow: hidden;
+      position: absolute;
+      right: 0px !important;
+      width: 70px;
+    }
+  }
+
+  &__right-down-flower {
+    bottom: 490px !important;
+    overflow: hidden;
+    position: absolute;
+    right: 0px !important;
+    width: 54px;
+
+    @include desktop {
+      bottom: 460px !important;
+      overflow: hidden;
+      position: absolute;
+      right: 0px !important;
+      width: 60px;
     }
   }
 
@@ -88,8 +143,8 @@
 
 
   &_info {
-    display: flex;
     align-items: center;
+    display: flex;
     flex-direction: column;
     height: 100%;
   }
