@@ -61,7 +61,7 @@
   }
 
   &__right-top-flower {
-   display: none;
+    display: none;
 
     @include desktop {
       bottom: 610px !important;
@@ -98,6 +98,7 @@
     line-height: 28px;
     letter-spacing: 5%;
     margin: 5rem 1rem 0 1rem;
+    z-index: 100;
 
     @include desktop {
       font-size: 3.75rem;
@@ -140,7 +141,6 @@
   &__button:hover {
     background-color: $green-lighter;
   }
-
 
   &_info {
     align-items: center;
