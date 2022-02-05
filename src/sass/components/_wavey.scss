@@ -1,36 +1,36 @@
 .wavey {
-	position: relative;
-	z-index: 100;
-	margin-top:  auto;
+  position: relative;
+  z-index: 100;
+  margin-top: auto;
 
   .wavey-container {
-		height: 80px; 
+    height: 80px;
 
-		@include desktop {
-			height: 200px;
-		}
-	}
+    @include desktop {
+      height: 200px;
+    }
+  }
 
-	.wavey-container-right{
-		background-color: transparent;	
-	}
+  .wavey-container-right {
+    background-color: $white-elementary;
+  }
 
-	.wavey-container-left{
-		background-color: transparent;
-	}
-    
-	.wavey-sizes{
-		height: 100%; 
-		width: 100%;
-	}
-	
-	.wavey-right{
-		stroke: none;
-		fill: $black;
-	}
+  .wavey-container-left {
+    background-color: transparent;
+  }
 
-	.wavey-left{
-		stroke: none;
-		fill: $white-elementary;
-	}
+  .wavey-sizes {
+    height: 100%;
+    width: 100%;
+  }
+
+  .wavey-right {
+    stroke: none;
+    fill: $black;
+  }
+
+  .wavey-left {
+    stroke: none;
+    fill: $white-elementary;
+  }
 }
