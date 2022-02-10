@@ -13,7 +13,7 @@ const Hero = () => {
     <div className="container-information">
       <div className="container-information_info">
         <h1 className="container-information__title">
-          We bring amazing and wild website to life
+          We bring amazing and wild websites to life
         </h1>
         <h4 className="container-information__subtitle">
           Plan, code and lauch the project to the jungle
