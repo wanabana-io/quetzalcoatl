@@ -1,5 +1,5 @@
 .sidebar {
-  
+  overflow: hidden;
   .sidebar-container {
     display: flex;
     flex-direction: column;
@@ -32,7 +32,6 @@
     top: 0;
     transition: all 0.5s;
     width: 50%;
-    overflow: hidden;
     z-index: 1000;
   }
 
