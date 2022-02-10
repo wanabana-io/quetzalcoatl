@@ -1,5 +1,4 @@
 import React from 'react';
-import { ReactSVG } from 'react-svg'
 import AboutUsImage from '../../assets/about/about-us.svg';
 
 const About = () => {
@@ -11,7 +10,7 @@ const About = () => {
       </div>
 
       <div className="about__image-container">
-        <ReactSVG src={AboutUsImage} className="about__image-about" />
+        <img src={AboutUsImage} alt='About Image' className="about__image-about" />
       </div>
     </div>
   );

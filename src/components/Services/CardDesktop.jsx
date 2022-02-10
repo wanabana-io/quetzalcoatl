@@ -14,6 +14,7 @@ const CardDesktop = ({direction, img, icon, title, subtitle, description, separa
   const textSeparation = classNames("services__information-container",{
     "services__information-container-separation": separation
   });
+
   return (
     <>
       <div className={directionclass}>

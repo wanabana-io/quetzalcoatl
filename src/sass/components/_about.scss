@@ -47,6 +47,7 @@
   }
 
   &__image-about {
+    width: 17.5rem;
     @include desktop {
       width: 30rem;
     }
