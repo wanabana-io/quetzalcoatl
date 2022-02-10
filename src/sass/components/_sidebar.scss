@@ -54,6 +54,7 @@
 
   &__is-open-overlay {
     opacity: 3;
+    overflow: hidden;
 
     @include desktop {
       display: none;
