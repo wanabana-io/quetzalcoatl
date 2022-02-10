@@ -8,6 +8,10 @@
   position: relative;
   text-align: center;
 
+  @include desktop {
+    overflow-x: initial;
+  }
+
   &__girl {
     bottom: 0;
     left: 0;
