@@ -22,7 +22,7 @@ const Hero = () => {
           className="container-information__button"
           href="mailto:imanny.eg@gmail.com?subject=Let's Work Together Wanabana.io"
         >
-          Contact Us
+          wanna build with us?
         </a>
       </div>
       <Wavey />
