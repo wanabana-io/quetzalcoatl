@@ -1,7 +1,10 @@
 .wavey {
   position: relative;
-  z-index: 100;
   margin-top: auto;
+
+  @include desktop {
+    z-index: 1;
+  }
 
   .wavey-container {
     height: 80px;
