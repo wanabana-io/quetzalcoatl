@@ -1,6 +1,7 @@
 .wavey {
   position: relative;
   margin-top: auto;
+  overflow: hidden;
 
   @include desktop {
     z-index: 1;
