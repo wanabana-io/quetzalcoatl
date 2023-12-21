@@ -8,8 +8,8 @@ export const ServiceData = {
     img: "planning-image.png",
     icon:PlanningIcon,
     title:"Planning",
-    subtitle:"Lorem ipsum dolor sit ament, consectetur.",
-    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor.",
+    subtitle:"Strategic Blueprints for Digital Success",
+    description:"Craft visionary roadmaps aligning business goals with innovative web strategies. Our planning ensures a robust foundation for your online presence.",
     direction: false,
     separation: false
   },
@@ -18,8 +18,8 @@ export const ServiceData = {
     img: "design-image.png",
     icon:DesignIcon,
     title:"Design",
-    subtitle:"Lorem ipsum dolor sit ament, consectetur.",
-    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor.",
+    subtitle:"Elevate Your Brand through Stunning Design",
+    description:"We weave aesthetics with functionality, creating captivating user experiences. Our designs reflect your brand identity, fostering lasting connections with your audience.",
     direction: true,
     separation: true
   },
@@ -28,8 +28,8 @@ export const ServiceData = {
     img: "developing-image.png",
     icon:DevelopingIcon,
     title:"Developing",
-    subtitle:"Lorem ipsum dolor sit ament, consectetur.",
-    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor.",
+    subtitle:"Code Craftsmanship for Seamless Functionality",
+    description:"Transforming ideas into powerful digital solutions. Our expert developers bring concepts to life, delivering scalable, secure, and user-centric websites that exceed expectations.",
     direction: false,
     separation: false
   },
@@ -38,8 +38,8 @@ export const ServiceData = {
     img:"consulting-images.png",
     icon:ConsultingIcon,
     title:"Consulting",
-    subtitle:"Lorem ipsum dolor sit ament, consectetur.",
-    description:"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor.",
+    subtitle:"Strategic Guidance for Digital Excellence",
+    description:"Navigate the complexities of the digital landscape with our tailored consulting services. From optimization to innovation, we empower your business to thrive in the online realm.",
     direction: true,
     separation: true
   }
