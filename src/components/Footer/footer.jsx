@@ -1,6 +1,7 @@
 import IconGithub from '../../assets/footer/icon-github.svg'
 import IconFacebook from '../../assets/footer/icon-facebook.svg';
 import IconLinkedin from '../../assets/footer/icon-linkedin.svg'
+import IconInstagram from '../../assets/footer/icon-instagram.svg'
 import HeaderItem from "../../shared/HeaderItem/headerItem";
 import { ReactSVG } from 'react-svg'
 
@@ -57,6 +58,9 @@ const Footer = () => (
         </a>
         <a href='https://www.linkedin.com/company/wanabana-io/'>
           <ReactSVG src={IconLinkedin} className="footer__icons-separation" />
+        </a>
+        <a href='https://www.instagram.com/wanabana.io/'>
+          <ReactSVG src={IconInstagram} className="footer__icons-separation" />
         </a>
       </div>
     </div>
