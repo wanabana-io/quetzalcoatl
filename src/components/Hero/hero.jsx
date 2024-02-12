@@ -20,7 +20,7 @@ const Hero = () => {
         </h4>
         <a
           className="container-information__button"
-          href="mailto:imanny.eg@gmail.com?subject=Let's Work Together Wanabana.io"
+          href="mailto:contacto@wanabana.io?subject=Let's Work Together Wanabana.io"
         >
           contact us
         </a>

@@ -2,6 +2,7 @@ import IconGithub from '../../assets/footer/icon-github.svg'
 import IconFacebook from '../../assets/footer/icon-facebook.svg';
 import IconLinkedin from '../../assets/footer/icon-linkedin.svg'
 import IconInstagram from '../../assets/footer/icon-instagram.svg'
+import IconTwitter from '../../assets/footer/icon-twitter.svg'
 import HeaderItem from "../../shared/HeaderItem/headerItem";
 import { ReactSVG } from 'react-svg'
 
@@ -42,7 +43,7 @@ const Footer = () => (
         <div className='footer__items-wrapper'>
           <div className='footer__links-items '>
             <h2>Contact Us</h2>
-            <a href="mailto: imanny.eg@gmail.com">
+            <a href="mailto: contacto@wanabana.io">
               Send Email
             </a>
           </div>
@@ -61,6 +62,9 @@ const Footer = () => (
         </a>
         <a href='https://www.instagram.com/wanabana.io/'>
           <ReactSVG src={IconInstagram} className="footer__icons-separation" />
+        </a>
+				<a href='https://twitter.com/wanabanaio'>
+          <ReactSVG src={IconTwitter} className="footer__icons-separation" />
         </a>
       </div>
     </div>
